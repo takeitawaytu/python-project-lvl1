@@ -6,8 +6,6 @@ from brain_games.scripts.brain_games import greet
 
 
 def check_even_num():
-	isEven = 'yes'
-	isNotEven = 'no'
 	name = welcome_user()
 	print('Answer "yes" if the number is even, otherwise answer "no".')
 	for i in range(4):
@@ -15,24 +13,26 @@ def check_even_num():
 			n = randint(1, 99)
 			print('Question: {}'.format(n))
 			answer = prompt.string('Your answer: ')
-			if n % 2 == 0 and answer == isEven:
+			if n % 2 == 0 and answer == 'yes':
 				print('Correct!')
-			elif n % 2 == 0 and answer != isEven:
+			elif n % 2 == 0 and answer != 'yes':
 				print('"no" is wrong answer ;(. Correct answer was "yes".')
 				print('Let\'s try again, {}!'.format(name))
-				break     
-			elif n % 2 != 0 and answer == isNotEven:
+				break
+			elif n % 2 != 0 and answer == 'no':
 				print('Correct!')
-			elif n % 2 != 0 and answer != isNotEven:
+			elif n % 2 != 0 and answer != 'no':
 				print('"yes" is wrong answer ;(. Correct answer was "no".')
 				print('Let\'s try again, {}!'.format(name))
 				break
 		elif i == 3:
 			print('Congratulations, {}!'.format(name))
 
+
 def main():
 	greet()
 	check_even_num()
+
 
 if __name__ == '__main__':
 	main()
