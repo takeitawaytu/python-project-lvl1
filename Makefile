@@ -20,4 +20,9 @@ package-install:
 	
 lint:
 	poetry run flake8 brain_games
+
+install-requirements:
+	python -m pip install --user --upgrade pip
+	python -m pip install poetry
+	
 	
