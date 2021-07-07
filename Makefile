@@ -20,6 +20,9 @@ brain-calc:
 
 brain-gcd:
 	poetry run brain-gcd
+
+brain-progression:
+	poetry run brain-progression
 	
 package-install:
 	python -m pip install --user dist/hexlet_code-0.1.4-py3-none-any.whl
