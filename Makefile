@@ -14,6 +14,9 @@ brain-games:
 	
 brain-even:
 	poetry run brain-even
+
+brain-calc:
+	poetry run brain-calc
 	
 package-install:
 	python -m pip install --user dist/hexlet_code-0.1.4-py3-none-any.whl

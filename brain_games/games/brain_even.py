@@ -20,8 +20,9 @@ def get_qa():
 
 
 def main():
+	description = 'Answer "yes" if the number is even, otherwise answer "no".'
 	game_questions = get_qa()
-	game_engine(questions=game_questions)
+	game_engine(description=description,questions=game_questions)
 
 
 if __name__ == '__main__':

@@ -3,10 +3,10 @@ from brain_games.cli import welcome_user
 from brain_games.scripts.brain_games import greet
 
 
-def game_engine(questions=''):
+def game_engine(description='', questions=''):
     greet()
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print(description)
     for question in questions:
         data, correct_answer = question
         print('Question: {}'.format(data))
