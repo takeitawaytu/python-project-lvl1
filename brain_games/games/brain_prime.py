@@ -12,7 +12,6 @@ def is_prime(number):
     return 'yes'
 
 
-
 def get_qa():
     questions_list = []
     for i in range(3):
@@ -23,7 +22,8 @@ def get_qa():
 
 
 def main():
-    description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    description = 'Answer "yes" if given number is prime. ' + \
+                  'Otherwise answer "no".'
     game_questions = get_qa()
     game_engine(description=description, questions=game_questions)
 
