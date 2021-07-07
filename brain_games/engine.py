@@ -12,8 +12,8 @@ def game_engine(description='', questions=''):
         print('Question: {}'.format(data))
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:
-            print('''"{}" is wrong answer ;(.
-            Correct answer was "{}".'''.format(answer, correct_answer))
+            print('''"{}" is wrong answer ;(. Correct answer was "{}".'''
+                  .format(answer, correct_answer))
             return print('Let\'s try again, {}!'.format(name))
         elif answer == correct_answer:
             print('Correct!')

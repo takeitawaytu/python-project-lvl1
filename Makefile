@@ -17,6 +17,9 @@ brain-even:
 
 brain-calc:
 	poetry run brain-calc
+
+brain-gcd:
+	poetry run brain-gcd
 	
 package-install:
 	python -m pip install --user dist/hexlet_code-0.1.4-py3-none-any.whl
@@ -27,5 +30,3 @@ lint:
 install-requirements:
 	python -m pip install --user --upgrade pip
 	python -m pip install poetry
-	
-	
