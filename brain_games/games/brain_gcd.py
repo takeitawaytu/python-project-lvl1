@@ -6,7 +6,7 @@ from brain_games.engine import game_engine
 def find_common_divisor(first_num, second_num):
     nod = 1
     min_num = min(first_num, second_num)
-    for i in range(2, min_num+1):
+    for i in range(2, min_num + 1):
         if first_num % i == 0 and second_num % i == 0:
             nod = i
     return nod
