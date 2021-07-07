@@ -4,9 +4,11 @@
 [![Python application linter](https://github.com/takeitawaytu/python-project-lvl1/actions/workflows/python-app-lint.yml/badge.svg?branch=main)](https://github.com/takeitawaytu/python-project-lvl1/actions/workflows/python-app-lint.yml)
 
 ##Installation and use
-#brain-even
+###brain-even
 https://asciinema.org/a/of1dvPaphGbJCVZP4tPWcgLjK
-#brain-calc
+####brain-calc
 https://asciinema.org/a/zPIsATkJ2GYHPAzzfFNXy4Bqf
-#brain-gcd
+####brain-gcd
 https://asciinema.org/a/JTubk6xCyqJntyjsrRMzUzBqT
+####brain-progression
+https://asciinema.org/a/Q2zHPFaoG1c3rpp4La0Kyio1a
